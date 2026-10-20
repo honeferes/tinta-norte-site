@@ -6,9 +6,9 @@ description: "They search in two languages, type the way they talk, and pick the
 date: 2026-10-20
 author: Gabriel Menyu
 ogtype: article
-image: "https://lh3.googleusercontent.com/d/1VFnX1w4qafFA87Kl0EIvU3kCAbfxgTeh"
+image: "https://tintanortestudio.com/blog-hispanic-customers-hero.jpg"
 image_alt: "A hand holding a phone with a search page open, in a garage at night, with a water heater in the background"
-og_image: "https://lh3.googleusercontent.com/d/1Y3GIkB1Vn_OqgoJXV0va_sVOBUElZZ4Z"
+og_image: "https://tintanortestudio.com/blog-hispanic-customers-og.png"
 ---
 
 It's a quarter to ten on a Tuesday night. The dishes are done, the kids are finally quiet, and the water heater in the garage has just made a sound no water heater should make.
