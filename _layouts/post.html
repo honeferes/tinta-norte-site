@@ -4,7 +4,7 @@ layout: default
 <section>
   <div class="wrap post-wrap">
     <h1>{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }} · {% assign mins = content | number_of_words | divided_by: 215.0 | round %}{% if mins < 1 %}{% assign mins = 1 %}{% endif %}{{ mins }} min read · By Gabriel Menyu</p>
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }} · {% assign mins = content | number_of_words | divided_by: 190.0 | round %}{% if mins < 1 %}{% assign mins = 1 %}{% endif %}{{ mins }} min read · By Gabriel Menyu</p>
 {% if page.image %}
     <figure class="post-hero"><img src="{{ page.image }}" alt="{{ page.image_alt }}"></figure>
 {% endif %}
