@@ -1,0 +1,10 @@
+title: Tinta Norte Content Studio
+description: "Spanish SEO content for US local businesses."
+url: "https://tintanortestudio.com"
+markdown: kramdown
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:title/

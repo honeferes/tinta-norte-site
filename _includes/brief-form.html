@@ -1,0 +1,37 @@
+<div class="cta-final" id="contact">
+  <div class="wrap">
+    <h2>See what we'd write for <em>your</em> business.</h2>
+    <p>Tell us your business and city. Within 48 hours you'll get a free one-page brief: the Spanish searches your customers actually make, the first article we'd write, and why it would rank. No commitment. No follow-up spam.</p>
+    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="f42d9bfb-4f32-48f0-a04b-a001ad77e0f8">
+      <input type="hidden" name="subject" value="New free brief request (BLOG)">
+      <input type="hidden" name="from_name" value="Tinta Norte website">
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="form-grid">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="text" name="business" placeholder="Business name" required>
+        <input type="text" name="city" placeholder="City and state" required>
+        <input type="url" name="website" placeholder="Website (optional)">
+        <input type="text" name="contact" placeholder="Email or WhatsApp" required>
+      </div>
+      <button class="btn" type="submit">Send me my free brief</button>
+      <p class="form-ok" id="formOk">Thanks — we'll send your free brief within 48 hours.</p>
+      <p class="form-err" id="formErr">Something went wrong — please try again, or message us on WhatsApp.</p>
+    </form>
+    <p class="chat-link">Prefer to chat? <a href="https://wa.me/18602226738?text=Hi%2C%20I%27d%20like%20a%20free%20brief%20for%20my%20business." target="_blank" rel="noopener">Message us on WhatsApp →</a></p>
+    <p class="micro">We only use your details to send your brief. Never shared, never sold.</p>
+  </div>
+</div>
+<script>
+document.querySelector('.contact-form').addEventListener('submit', async function(e){
+  e.preventDefault();
+  var f = e.target, btn = f.querySelector('button[type=submit]'), errEl = document.getElementById('formErr');
+  btn.disabled = true; btn.textContent = 'Sending…'; errEl.style.display='none';
+  try {
+    var r = await fetch(f.action, {method:'POST', body:new FormData(f), headers:{'Accept':'application/json'}});
+    var j = await r.json();
+    if (j.success) { f.reset(); document.getElementById('formOk').style.display='block'; btn.textContent='Request sent ✓'; }
+    else { btn.disabled = false; btn.textContent = 'Try again'; errEl.style.display='block'; }
+  } catch(err) { btn.disabled = false; btn.textContent = 'Try again'; errEl.style.display='block'; }
+});
+</script>

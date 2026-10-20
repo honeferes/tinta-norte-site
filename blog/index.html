@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Spanish SEO Blog for US Local Businesses | Tinta Norte"
+description: "Practical notes on Spanish SEO for US local businesses: the searches your Hispanic customers make, and the content that answers them. By Gabriel Menyu."
+---
+<section>
+  <div class="wrap">
+    <span class="kicker">Blog</span>
+    <h2 class="sec">Getting found in Spanish, explained plainly.</h2>
+    <p class="sub">Short, practical notes on Spanish keywords, local SEO and content — the same thinking we put into client work.</p>
+    <div class="post-list">
+{% for post in site.posts %}
+      <article class="post-item">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }} · By Gabriel Menyu</p>
+        <p>{{ post.excerpt | strip_html | truncatewords: 32 }}</p>
+      </article>
+{% endfor %}
+{% if site.posts.size == 0 %}
+      <p style="text-align:center;color:var(--slate)">The first articles are on their way. Meanwhile, the fastest way to see what we would write for your business is the free brief below.</p>
+{% endif %}
+    </div>
+  </div>
+</section>
+{% include brief-form.html %}
