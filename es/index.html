@@ -138,6 +138,7 @@ header{padding:10px 0}
 .about-grid{display:grid;grid-template-columns:220px 1fr;gap:52px;align-items:center;max-width:880px;margin:0 auto}
 .about-mono{width:220px;height:220px;border-radius:50%;background:var(--ink);color:var(--amber);display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;font-size:4.2rem;border:3px solid var(--amber);flex-shrink:0}
 .about-photo{width:220px;height:220px;border-radius:50%;object-fit:cover;border:3px solid var(--amber);flex-shrink:0}
+@media(max-width:700px){.about-grid{grid-template-columns:1fr;gap:24px;justify-items:center}.about-photo{width:160px;height:160px}}
 .about-copy .kicker{text-align:left}
 .about-copy h2{font-size:2rem;margin-bottom:18px}
 .about-copy p{color:var(--slate);margin-bottom:16px}
