@@ -2,4 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url><loc>https://tintanortestudio.com/</loc><xhtml:link rel="alternate" hreflang="en" href="https://tintanortestudio.com/"/><xhtml:link rel="alternate" hreflang="es" href="https://tintanortestudio.com/es/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://tintanortestudio.com/"/></url>
   <url><loc>https://tintanortestudio.com/es/</loc><xhtml:link rel="alternate" hreflang="en" href="https://tintanortestudio.com/"/><xhtml:link rel="alternate" hreflang="es" href="https://tintanortestudio.com/es/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://tintanortestudio.com/"/></url>
+  <url><loc>https://tintanortestudio.com/muestra/</loc><xhtml:link rel="alternate" hreflang="es" href="https://tintanortestudio.com/muestra/"/><xhtml:link rel="alternate" hreflang="en" href="https://tintanortestudio.com/sample/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://tintanortestudio.com/muestra/"/></url>
+  <url><loc>https://tintanortestudio.com/sample/</loc><xhtml:link rel="alternate" hreflang="en" href="https://tintanortestudio.com/sample/"/><xhtml:link rel="alternate" hreflang="es" href="https://tintanortestudio.com/muestra/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://tintanortestudio.com/sample/"/></url>
+  <url><loc>https://tintanortestudio.com/privacy/</loc></url>
+  <url><loc>https://tintanortestudio.com/terms/</loc></url>
+  <url><loc>https://tintanortestudio.com/privacidad/</loc></url>
+  <url><loc>https://tintanortestudio.com/terminos/</loc></url>
 </urlset>
