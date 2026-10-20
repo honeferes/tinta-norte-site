@@ -101,9 +101,3 @@ She tapped the green button. Somebody answered.
 
 That's the whole game. Not the biggest ad, not the fanciest website. Just being there, in her language, at a quarter to ten on a Tuesday night.
 
----
-
-**Want to know what your Spanish-speaking customers are searching for?**
-Tell us your business and city, and within 48 hours we'll send you a free one-page brief: the Spanish searches in your area, the first article we'd write for you, and why it would rank. No commitment.
-
-[Get my free brief →](#contact)
