@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ page.title }}</title>
+<title>{{ page.seo_title | default: page.title }}</title>
 <meta name="description" content="{{ page.description }}">
 <link rel="canonical" href="https://tintanortestudio.com{{ page.url }}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231B2A4A'/%3E%3Ctext x='32' y='43' font-family='Georgia' font-size='30' fill='%23E8A33D' text-anchor='middle'%3ETN%3C/text%3E%3C/svg%3E">
@@ -11,11 +11,11 @@
 <meta property="og:description" content="{{ page.description }}">
 <meta property="og:type" content="{{ page.ogtype | default: 'website' }}">
 <meta property="og:url" content="https://tintanortestudio.com{{ page.url }}">
-<meta property="og:image" content="https://tintanortestudio.com/OG-image.png">
+<meta property="og:image" content="{{ page.og_image | default: page.image | default: 'https://tintanortestudio.com/OG-image.png' }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://tintanortestudio.com/OG-image.png">
+<meta name="twitter:image" content="{{ page.og_image | default: page.image | default: 'https://tintanortestudio.com/OG-image.png' }}">
 <style>
 :root{--ink:#1B2A4A;--ink2:#101A30;--amber:#E8A33D;--ivory:#F7F3EA;--slate:#5A6472;--white:#fff;--line:#EAE3D2}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -183,9 +183,20 @@ footer a{color:#C9D2E0}
 .post-item h3 a{color:var(--ink);text-decoration:none}
 .post-item h3 a:hover{color:var(--amber)}
 .post-meta{color:var(--slate);font-size:.85rem;margin-bottom:10px}
-.post-wrap{max-width:760px;margin:0 auto}
+.post-wrap{max-width:680px;margin:0 auto}
 .post-wrap h1{font-size:2.1rem;margin-bottom:10px}
-.post-body p{margin-bottom:16px}
+.post-body{font-size:18px;line-height:1.65}
+.post-body p{margin-bottom:18px}
+.post-body blockquote{font-family:Georgia,serif;font-style:italic;font-size:1.5rem;line-height:1.35;color:var(--ink);border-left:4px solid var(--amber);padding:4px 0 4px 22px;margin:36px 0}
+.post-body img{max-width:100%;border-radius:12px}
+.post-hero{margin:26px 0 8px}
+.post-hero img{width:100%;border-radius:12px;display:block}
+.author-box{display:flex;gap:18px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:40px 0 4px}
+.author-box img{width:78px;height:78px;border-radius:50%;object-fit:cover;border:2px solid var(--amber);flex-shrink:0}
+.author-box .an{font-family:Georgia,serif;font-size:1.1rem;color:var(--ink)}
+.author-box .al{color:var(--slate);font-size:.92rem;margin:2px 0 4px}
+.author-box a{color:var(--amber);font-weight:700;font-size:.92rem}
+@media(max-width:560px){.author-box{flex-direction:column;text-align:center}}
 .post-body h2{margin:26px 0 10px}
 </style>
 </head>
