@@ -19,7 +19,7 @@ Marisol picks up her phone. She doesn't open a directory. She doesn't call her c
 
 No accent on the *í*. No capital letter. No patience for either.
 
-She could be in Houston or Hartford, in Phoenix or in a small town in Georgia where the only Mexican bakery closes at six. It doesn't matter. What happens next on that small, bright screen happens the same way all across the country, millions of times a week. And most local businesses never find out they were part of it — because they weren't on the screen at all.
+She could be in Houston or Hartford, in Phoenix or in a small town in Georgia where the only Mexican bakery closes at six. It doesn't matter. What happens next on that small, bright screen happens the same way all across the country, every night, in every city. And most local businesses never find out they were part of it — because they weren't on the screen at all.
 
 Here is how that search really works, and what it asks of you.
 
@@ -37,7 +37,7 @@ Notice which ones tend to switch to Spanish. Health. Legal trouble. Money. Famil
 
 > When the stakes rise, people reach for the language they feel safest in.
 
-**What this means for you:** an English-only website is invisible to half of these searches. A website that only *translates* its English pages is invisible to the other half, because the Spanish searches aren't word-for-word copies of the English ones. They're different questions, asked in a different voice.
+**What this means for you:** an English-only website is invisible to a whole share of these searches. A website that only *translates* its English pages is invisible to another share, because the Spanish searches aren't word-for-word copies of the English ones. They're different questions, asked in a different voice.
 
 ## They type the way they talk
 
@@ -77,7 +77,7 @@ And when the owner answers that review in Spanish, something quiet but powerful 
 
 This may be the most important point of all: many people don't just search for a service. They search for the *language* as part of the service.
 
-- *dentista que hable español*
+- [*dentista que hable español*](/dental/)
 - *contador bilingüe*
 - *mecánico hispano cerca de mí*
 
@@ -88,7 +88,7 @@ For these customers, being understood is not a bonus. It's the feature they're s
 You don't need to rebuild your business. You need to become findable in the language your customers are already using. Start here:
 
 1. **Say it out loud.** Add "Hablamos español" to your Google Business Profile, your website header and your service pages.
-2. **Write Spanish pages natively — don't translate.** One real page per main service, written around the searches people actually make.
+2. [**Write Spanish pages natively — don't translate.**](/sample/) One real page per main service, written around the searches people actually make.
 3. **Post on Google in Spanish.** Short updates, offers, seasonal tips. They keep your listing alive and visible.
 4. **Make contact effortless.** A tap-to-call button and a WhatsApp button on every page.
 5. **Collect and answer reviews in Spanish.** They're the neighbor's word, and the neighbor's word still wins.
