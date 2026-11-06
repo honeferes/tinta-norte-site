@@ -33,5 +33,12 @@
   document.getElementById("viewer").src = url;
   document.getElementById("dl").href = url;
 </script>
+
+<script>
+(function(){try{
+  if(new URLSearchParams(location.search).has('own'))return;
+  fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({access_key:'f42d9bfb-4f32-48f0-a04b-a001ad77e0f8',from_name:'Tinta Norte check tracker',subject:'Check abierto: Mechanical Heating & Cooling',business:'Mechanical Heating & Cooling',page:location.pathname})});
+}catch(e){}})();
+</script>
 </body>
 </html>
